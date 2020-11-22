@@ -5,7 +5,7 @@
 }
 
 body {
-    /* margin: 2rem; */
+    font-family: 'Source Sans Pro', sans-serif;
     background: #FC5C7D;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -15,7 +15,20 @@ body {
     grid-template-rows: 1fr;
     grid-auto-rows: auto;
     padding: 2rem;
-    /* width: 100vw; */
+   
+}
+
+h1 {
+    /* text-align: center; */
+    text-shadow: 2px 3px 2px #bada55;
+    /* font-style: oblique; */
+    letter-spacing: .26rem;
+    text-align: center;
+    font-size: 8vmin;
+}
+
+h3 {
+    letter-spacing: .1rem;
 }
 
 .container {
@@ -54,7 +67,7 @@ img {
 button, .form-btn {
 margin: 2rem 0;
 padding: .5rem;
-font-size: 2.5vmin;
+font-size: 2.99vmin;
 border: none;
 border-radius: 5px;
 background-color: rgb(50,205,50);
